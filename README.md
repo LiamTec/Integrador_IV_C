@@ -9,10 +9,28 @@
 Breve descripción
 
 ## Tecnologías Utilizadas
-- Lenguaje de programación: [Python]
-- Frameworks / Librerías: [Django, React]
+- Lenguaje de programación: [Python, Java, Kotlin]
+- Frameworks / Librerías: [Django, React, Spring boot]
 - Base de datos: [MySQL]
-- Herramientas: [Git,Visual Studio Code]
+- Herramientas: [Git,Visual Studio Code, Intellij Idea y xampp]
+
+## INICIO DEL SERVIDOR - ADMINISTRADOR
+###Entorno virtual
+-python -m venv venv
+-venv\Scripts\activate (windows)
+-source venv/bin/activate (linux)
+
+###Django (back-end)
+  -pip install django
+  -pip install djangorestframework
+  -pip install pillow
+  -python manage.py migrate
+  -python manage.py runsever
+
+###React (front-end)
+  -npm install --legacy-peer-deps
+  -npm install --force
+  -npm run dev
 
 ## Características Principales
 - [✔️] Funcionalidad 1: []
