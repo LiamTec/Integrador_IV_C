@@ -15,19 +15,19 @@ Breve descripción
 - Herramientas: [Git,Visual Studio Code, Intellij Idea y xampp]
 
 ## INICIO DEL SERVIDOR - ADMINISTRADOR
-###Entorno virtual
+#### Entorno virtual
 -python -m venv venv
 -venv\Scripts\activate (windows)
 -source venv/bin/activate (linux)
 
-###Django (back-end)
+### Django (back-end)
   -pip install django
   -pip install djangorestframework
   -pip install pillow
   -python manage.py migrate
   -python manage.py runsever
 
-###React (front-end)
+### React (front-end)
   -npm install --legacy-peer-deps
   -npm install --force
   -npm run dev
