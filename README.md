@@ -16,21 +16,21 @@ Breve descripción
 
 ## INICIO DEL SERVIDOR - ADMINISTRADOR
 #### Entorno virtual
--python -m venv venv
--venv\Scripts\activate (windows)
--source venv/bin/activate (linux)
+##### -python -m venv venv
+##### -venv\Scripts\activate (windows)
+##### -source venv/bin/activate (linux)
 
 ### Django (back-end)
-  -pip install django
-  -pip install djangorestframework
-  -pip install pillow
-  -python manage.py migrate
-  -python manage.py runsever
+  ##### -pip install django
+  ##### -pip install djangorestframework
+  ##### -pip install pillow
+  ##### -python manage.py migrate
+  ##### -python manage.py runsever
 
 ### React (front-end)
-  -npm install --legacy-peer-deps
-  -npm install --force
-  -npm run dev
+  ##### -npm install --legacy-peer-deps
+  ##### -npm install --force
+  ##### -npm run dev
 
 ## Características Principales
 - [✔️] Funcionalidad 1: []
